@@ -1,0 +1,39 @@
+   *{
+	margin:0;
+	padding:0;
+	}
+	.header
+	{
+	height:100px;
+	}
+	.navbar-style
+	{
+	box-shadow:0 5px 10px #efefef;
+	}
+	.logo
+	{
+		height:125px;
+		padding:2px 10px;
+	}
+	#slider{
+width:70%;
+height:400px;
+position:absolute;
+left:50%;
+top:50%;
+background-image:url('https://www.google.com/search?q=mens+womens+wear&rlz=1C1GCEA_enIN851IN851&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjGg7zOtNHiAhUKrI8KHeHXBewQ_AUIECgB&biw=1536&bih=754&dpr=1.25#imgrc=uGSeRr1nRzbdcM:');}
+background-size:100%,100%;
+animation:slider 9s infinite linear;
+}  
+
+@keyframes slide{
+25%{
+	background-image:url('https://www.google.com/search?q=mens+womens+wear&rlz=1C1GCEA_enIN851IN851&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjGg7zOtNHiAhUKrI8KHeHXBewQ_AUIECgB&biw=1536&bih=754&dpr=1.25#imgrc=uGSeRr1nRzbdcM:);
+	}
+35%{
+	background-image:url('https://www.dhgate.com/product/2017-new-autumn-winter-men-039-s-womens-fashion/404381305.html');
+	}
+75%{
+	background-image:url('http://www.meghaenterprise.net/mens-womens-wear');
+	} 
+}
